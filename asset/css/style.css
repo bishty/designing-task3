@@ -1,0 +1,412 @@
+/*=============================================
+=   *************roots***********          =
+=============================================*/
+
+ :root {
+    --color1-pick1: #008AFF;
+    --color1-pick2: #152C5B;
+    --color1-pick3: #9EA9B9;
+    --color1-pick4: #6097FD;
+    --color1-pick5: #FFFFFF;
+    --color1-pick6: #FFBE3D;
+}
+
+* {
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5 {
+    margin: 0;
+}
+
+
+/*=============================================
+  *************navbar center and side start**
+=============================================*/
+
+.buy-now-button {
+    border-radius: 5px;
+    font-size: 11px;
+}
+
+.icon {
+    font-size: 14px;
+}
+
+
+/*=============================================
+  *************navbar center and side end**
+=============================================*/
+
+
+/*=============================================
+  ************nbetter way start**
+=============================================*/
+
+.bettet-way-heading h2 {
+    color: var(--color1-pick2);
+    font-size: 40px;
+}
+
+.better-way-heading h3 {
+    font-size: 34px;
+}
+
+.dropdown-menu {
+    animation: growDown 300ms ease-in-out forwards;
+    transform-origin: top center;
+}
+
+@keyframes growDown {
+    0% {
+        transform: scaleY(0)
+    }
+    50% {
+        transform: scaleY(1.1)
+    }
+    100% {
+        transform: scaleY(1)
+    }
+}
+
+.better-way-image {
+    transform: perspective(437px) rotatey(-6deg);
+    perspective-origin: -90%;
+    transform-origin: right;
+}
+
+.get-started-size {
+    border-radius: 5px;
+    font-size: 12px;
+}
+
+.download-theme {
+    border-radius: 3px;
+    font-size: 14px;
+}
+
+.over-the-image {
+    position: relative;
+}
+
+.over-white-image {
+    position: absolute;
+    background-color: var(--color1-pick5);
+    bottom: 0;
+    left: 0;
+    border-radius: 15px;
+    padding: 63px 62px 12px 58px;
+    box-shadow: 5px 10px 18px #888888;
+    transition: transform 850ms;
+}
+
+.over-white-image:hover {
+    transform: translateX(-280px);
+}
+
+.over-white-image-heading h6 {
+    max-width: 100%;
+    width: 93px;
+    text-align: center;
+    margin-top: 26px;
+}
+
+.icon-secure {
+    background-color: rgba(0, 128, 0, 0.1);
+    border-radius: 50%;
+    /* height: 21px; */
+    /* width: 38px; */
+    padding: 23px
+}
+
+
+/*=============================================
+  ************better way  end**
+=============================================*/
+
+
+/*=============================================
+  ************build-better-website start**
+=============================================*/
+
+.ml2 {
+    font-weight: 900;
+    font-size: 3.5em;
+}
+
+.ml2 .letter {
+    display: inline-block;
+    line-height: 1em;
+}
+
+.build-better-website {
+    margin-top: 90px;
+}
+
+.cube-icon {
+    font-size: 37px;
+    color: var(--color1-pick4);
+}
+
+.custom-line {
+    width: 734px;
+}
+
+.amazon-icon {
+    width: 100px;
+    opacity: 0.2;
+}
+
+.build-better-hover {
+    transition: transform .2s;
+    height: 235px;
+}
+
+.build-better-hover:hover {
+    transform: scale(1.3);
+}
+
+.gallery-slider .item {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.galleryslider {
+    opacity: 0.2;
+}
+
+
+/*=============================================
+  ************manage money start******
+=============================================*/
+
+.manage-money-heading {
+    color: var(--color1-pick2);
+}
+
+.manage-money {
+    margin-top: 64px;
+}
+
+.manage-money .quickpay {
+    margin: 120px 38px 47px 27px;
+}
+
+.quick-heading {
+    color: var(--color1-pick2);
+}
+
+.cog-icon {
+    font-size: 27px;
+    color: var(--color1-pick4);
+}
+
+.setup-heading h6 {
+    color: var(--color1-pick2);
+}
+
+.setup-heading {
+    margin-left: -28px;
+}
+
+credit-card {
+    padding: 45px;
+}
+
+.manage-money-heading p {
+    max-width: 90%;
+}
+
+.master-card {
+    background-color: #171347;
+    padding: 19px 66px 16px 20px;
+    margin-top: 13px;
+    border-radius: 14px;
+}
+
+.cvv {
+    font-size: 29px;
+}
+
+.master-card p {
+    font-size: 19px;
+}
+
+.credit-master {
+    border-radius: 13px 13px 97px 13px;
+    width: 411px;
+    transition: 1s;
+    margin-top: 75px;
+    padding-bottom: 59px;
+    border: 2px solid rgb(242, 236, 236);
+}
+
+.credit-master:hover {
+    transform: scale(1.1);
+}
+
+
+/*=============================================
+  ************analiytcs  start******
+=============================================*/
+
+.payment-to-john {
+    margin-top: 180px;
+}
+
+.payment-outer {
+    box-shadow: 0px 0px 5px 0px #dddddd;
+    border: 1px solid #ddd;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.payment-image {
+    border-radius: 50%;
+    width: 63px;
+    height: 44px;
+}
+
+.payment-success {
+    border-radius: 50%;
+    padding: 6px;
+    background-color: rgba(0, 128, 0, 0.1);
+}
+
+.slider-amazon {
+    background-color: var(--color1-pick1);
+    position: relative;
+    padding: 102px;
+}
+
+
+/*=============================================
+  ************global start******
+=============================================*/
+
+.global {
+    background-color: var(--color1-pick2);
+    padding: 36px;
+}
+
+.america-flag {
+    width: 34px;
+    border-radius: 23px;
+}
+
+.global-solution {
+    background-color: var(--color1-pick2);
+}
+
+.global-community {
+    background-color: var(--color1-pick2);
+}
+
+.global-community1 {
+    clip-path: polygon(0 85%, 99% 63%, 99% 100%, 0 100%);
+    background-color: var(--color1-pick2);
+    top: -250px;
+    left: 0px;
+    right: -13px;
+    height: 252px;
+    position: absolute;
+}
+
+
+/*=============================================
+  ************pricing start******
+=============================================*/
+
+.expensive-card {
+    box-shadow: -1px 4px 8px #888888;
+    padding: 34px 30px 104px 26px;
+    transition: 2s;
+    ;
+}
+
+.expensive-card:hover {
+    background-color: var(--color1-pick1);
+    color: rgb(255, 255, 255);
+    transform: translateX(1.3);
+}
+
+.btn-warning:hover {
+    background-color: var(--color1-pick5);
+}
+
+.excellent-heading {
+    color: var(--color1-pick2);
+}
+
+.price-btn {
+    border-radius: 21px;
+    top: 48px;
+    left: 606px;
+    position: absolute;
+    background-color: rgb(0, 183, 189);
+    border: 2px solid rgb(255, 241, 241);
+    padding: 4px;
+}
+
+
+/*=============================================
+  ************helpful start******
+=============================================*/
+
+.helpful-shadow {
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/*=============================================
+  ************brilliant start******
+=============================================*/
+
+.brilliant-solution {
+    background-color: var(--color1-pick2);
+    margin-top: 180px;
+}
+
+.brilliant-solution1 {
+    clip-path: polygon(0 85%, 99% 63%, 99% 100%, 0 100%);
+    background-color: var(--color1-pick2);
+    top: -247px;
+    position: absolute;
+    left: 0px;
+    right: -13px;
+    height: 250px;
+}
+
+.brilliant-heading {
+    margin-left: 94px;
+}
+
+.moon {
+    position: absolute;
+    left: -54px;
+    top: -48px;
+    background-color: var(--color1-pick1);
+    border-radius: 50%;
+    padding: 9px 9px 5px 15px;
+}
+
+.copy {
+    position: absolute;
+    left: -5px;
+    top: -49px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    padding: 9px 9px 5px 15px;
+}
